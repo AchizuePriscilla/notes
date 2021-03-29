@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutterscainitiativeproject/models/note.dart';
-import 'package:flutterscainitiativeproject/models/note_operations.dart';
+import 'package:flutterscainitiativeproject/viewmodels/note_operations.dart';
 import 'package:flutterscainitiativeproject/screens/home_screen.dart';
 import 'package:hive/hive.dart';
 import 'package:provider/provider.dart';

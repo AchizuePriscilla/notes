@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutterscainitiativeproject/models/note.dart';
-import 'package:flutterscainitiativeproject/models/note_operations.dart';
+import 'package:flutterscainitiativeproject/viewmodels/note_operations.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 

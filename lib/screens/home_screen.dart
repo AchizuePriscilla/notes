@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutterscainitiativeproject/models/note.dart';
-import 'package:flutterscainitiativeproject/models/note_operations.dart';
+import 'package:flutterscainitiativeproject/viewmodels/note_operations.dart';
 import 'package:flutterscainitiativeproject/screens/add_screen.dart';
 import 'package:flutterscainitiativeproject/screens/edit_screen.dart';
 import 'package:hive/hive.dart';
@@ -149,7 +149,7 @@ class NotesCard extends StatelessWidget {
                   Align(
                     alignment: Alignment.bottomLeft,
                     child: Text(
-                      date,
+                      date != null ? date : "Date",
                       style: TextStyle(fontWeight: FontWeight.bold),
                     ),
                   ),
