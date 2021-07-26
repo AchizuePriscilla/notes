@@ -3,7 +3,7 @@ import 'package:flutterscainitiativeproject/models/note.dart';
 import 'package:hive/hive.dart';
 
 class NoteOperations extends ChangeNotifier {
-  List<Note> _notes = List<Note>();
+  List<Note> _notes = [];
 
   List<Note> get getNotes {
     return _notes;

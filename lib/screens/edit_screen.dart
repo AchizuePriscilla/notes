@@ -102,8 +102,8 @@ class _EditScreenState extends State<EditScreen> {
                     Provider.of<NoteOperations>(context, listen: false)
                         .editNote(
                             note: Note(
-                                title: newNoteTitle,
-                                description: newNoteDescription,
+                                title: newNoteTitle ?? 'Enter title',
+                                description: newNoteDescription ?? 'Enter note',
                                 dateTime: date),
                             index: widget.index);
                     Navigator.pop(context);

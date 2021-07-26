@@ -73,8 +73,8 @@ class _AddScreenState extends State<AddScreen> {
                   onPressed: () {
                     Provider.of<NoteOperations>(context, listen: false)
                         .addNewNote(
-                            title: noteTitle,
-                            description: noteText,
+                            title: noteTitle ?? 'Enter title',
+                            description: noteText ?? 'Enter note',
                             dateTime: date);
                     Navigator.pop(context);
                   },
