@@ -26,15 +26,14 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
-          backgroundColor: Colors.white24,
+          backgroundColor: Colors.black,
           title: Text(
             'Notes',
             style: TextStyle(
-                fontSize: 28, fontWeight: FontWeight.bold, color: Colors.black),
+                fontSize: 28, fontWeight: FontWeight.bold, color: Colors.white),
           ),
-          elevation: 10,
-          shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.vertical(bottom: Radius.circular(10))),
+          elevation: 0,
+          centerTitle: true,
         ),
         floatingActionButton: FloatingActionButton(
           backgroundColor: Colors.black,

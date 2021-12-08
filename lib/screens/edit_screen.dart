@@ -48,10 +48,11 @@ class _EditScreenState extends State<EditScreen> {
           ],
           title: Text(
             'Edit Note',
-            style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+            style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold, color: Colors.white),
           ),
           centerTitle: true,
           elevation: 0,
+          backgroundColor: Colors.black,
         ),
         body: Padding(
           padding: const EdgeInsets.all(16.0),

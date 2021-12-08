@@ -20,13 +20,13 @@ class _AddScreenState extends State<AddScreen> {
     return Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
-          title: Text(
-            'New note',
-            style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
-          ),
-          centerTitle: true,
-          elevation: 0,
-        ),
+            title: Text(
+              'New note',
+              style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
+            ),
+            centerTitle: true,
+            elevation: 0,
+            backgroundColor: Colors.black),
         body: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
